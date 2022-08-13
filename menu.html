@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: hsl(20, 40%, 55%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: white;  
+}
+
+p {
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+.row: :after {
+    content: "                              ";
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 28% ;
+    padding: 20px;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100px;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+<h1><i> Our Home Menu</h1>
+<hr style="width: 70%">
+
+<p> Lunch</p>
+
+<div class="row">
+    <div class="column">
+        <div class="content">
+            <img src="PlatoFuerte.jpg" width="290" height="300">
+            <h2>Plato Típico - $5</h2>
+        </div>
+    </div>
+
+<div class="row">    
+     <div class="column">
+        <div class="content">
+        <img src="SegundoPlatoFuerte.jpg" width="290" height="300">
+        <h3>Mangú - $4</h3>
+        </div>
+    </div>
+ 
+ <div class="row">   
+     <div class="column">
+        <div class="content">
+        <img src="Sancocho.jpg" width="290" height="300">
+        <h4>Sancocho - $6</h4>
+        </div>
+    </div>
+
+<hr style="width: 100%">
+
+<p> Snacks</p>
+<p>(sweet and salty)</p>
+
+<div class="row">
+    <div class="column">
+        <div class="content">
+            <img src="Quipes.jpg" width="290" height="300">
+            <h2>Quipes - $2</h2>
+        </div>
+    </div>
+
+<div class="row">    
+     <div class="column">
+        <div class="content">
+        <img src="HabichuelasConDulce.jpg" width="290" height="300">
+        <h3>Habichuelas con dulce - $3</h3>
+        </div>
+    </div>
+ 
+ <div class="row">   
+     <div class="column">
+        <div class="content">
+        <img src="ArepaDulce.jpg" width="290" height="300">
+        <h4>Sweet Arepa - $3</h4>
+        </div>
+    </div>
+
+<hr style="width: 100%">
+
+<p> Juices</p>
+
+<div class="row">
+    <div class="column">
+        <div class="content">
+            <img src="JugoDeLechoza.jpg" width="290" height="300">
+            <h2>Lechoza Juice - $3</h2>
+        </div>
+    </div>
+
+<div class="row">    
+     <div class="column">
+        <div class="content">
+        <img src="MorirSoñando.jpg" width="290" height="300">
+        <h3>Die Dreaming - $2</h3>
+        </div>
+    </div>
+ 
+ <div class="row">   
+     <div class="column">
+        <div class="content">
+        <img src="JugoDeChinola.jpg" width="290" height="300">
+        <h4>Passion Fruit Juice - $2</h4>
+        </div>
+    </div>
+
+<hr style="width: 100%">
+
+<p>Tipical Home Dinner</p>
+
+<div class="row">
+    <div class="column">
+        <div class="content">
+            <img src="Mofongo.jpg" width="290" height="300">
+            <h2>Mofongo - $6</h2>
+        </div>
+    </div>
+
+<div class="row">    
+     <div class="column">
+        <div class="content">
+        <img src="Cena.jpg" width="290" height="300">
+        <h3>Spaghetti - $7</h3>
+        </div>
+    </div>
+ 
+ <div class="row">   
+     <div class="column">
+        <div class="content">
+        <img src="Domplines.jpg" width="290" height="300">
+        <h4>Domplines - $6</h4>
+        </div>
+    </div>
+
+<hr style="width: 100%">
+
+<p> Other house's specialties</p>
+
+<table style="width:100%">
+    <tr>
+        <th> Menu</th>
+        <th> Price</th>
+    </tr>
+    <tr>
+        <td>Moro con carne</td>
+        <td> $5-per dish</td>
+    </tr>
+    <tr>
+         <td>Empanadas (cheese, ham, egg)</td>
+        <td> $1</td>
+    </tr>
+    <tr>
+         <td>Bollitos (cheese, ham)</td>
+        <td> $1</td>
+    </tr>
+    <tr>
+         <td>Locrio de pollo</td>
+        <td>$5-per dish </td>
+    </tr>
+    <tr>
+         <td>Arróz con bacalao y habichuelas</td>
+        <td> $10- per dish</td>
+    </tr>
+    <tr>
+         <td>Chico guisado con arróz </td>
+        <td>$10- per dish </td>
+    </tr>
+    <tr>
+         <td>Chicharrón </td>
+        <td>$7 </td>
+    </tr>
+    <tr>
+         <td>Fritos con pezcado </td>
+        <td>$9- per dish </td>
+    </tr>
+    <tr>
+         <td>Pasteles de hoja (chicken, beef) </td>
+        <td>$3 </td>
+    </tr>
+    <tr>
+         <td>Pan de maíz</td>
+        <td>$3- per slice</td>
+    </tr>
+    <tr>
+         <td>Pastelón de platano maduro </td>
+        <td>$4- per slice</td>
+    </tr>
+    <tr>
+         <td>Yaniqueque</td>
+        <td>$0.50</td>
+    </tr>
+    <tr>
+         <td>Arepita de maíz</td>
+        <td>$0.10</td>
+    </tr>
+    <tr>
+         <td>Chimichurri</td>
+        <td>$4</td>
+    </tr>
+    <tr>
+         <td>Niño envuelto</td>
+        <td>$2</td>
+    </tr>
+    <tr>
+         <td>Avena</td>
+        <td>$1- small</td>
+    </tr>
+    <tr>
+         <td>Chacá</td>
+        <td>$3</td>
+    </tr>
+    <tr>
+         <td>Mondongo</td>
+        <td>$5</td>
+    </tr>
+    <tr>
+         <td>Bacalao con papa y arróz</td>
+        <td>$6</td>
+    </tr>
+    <tr>
+         <td>Chofán</td>
+        <td>$4</td>
+    </tr>
+    <tr>
+         <td>Ensalada Rusa con arróz</td>
+        <td>$7</td>
+    </tr>
+    <tr>
+         <td>Arróz con fideos y carne de pollo</td>
+        <td>$4</td>
+    </tr>
+    <tr>
+         <td>Pica Pollo</td>
+        <td>$3</td>
+    </tr>
+    <tr>
+         <td>Dulce de leche</td>
+        <td>$2- each cube</td>
+    </tr>
+</body>
+</html>

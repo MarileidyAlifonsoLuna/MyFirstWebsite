@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+ul.no-bullets {
+	list-style-type: none;
+	marging: 0;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 27px;
+	
+}
+
+<meta charset="utf-8">
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration for "/>
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. "/>
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js">
+<script type="text/javascript">
+
+</script>
+</script>
+</style>
+</head>
+<body onload="document.registration-form-validation.js"></script>
+if(document.getElementById("question").value.length==0)
+{
+	alert("empty")
+}
+<div style="background-color:brown; padding:20px;">
+<h1 style="text-align:center"> WELCOME!</h1>
+<h2 style="text-align:center">Register here</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul class="no-bullets">
+<li><input type="text" placeholder="Username" id="name" size="20" /></li>
+<li><input type="text" placeholder="Password" id="password" size="30" /></li>
+<li><input type="text" placeholder="Fullname" id="fullname" size="40" /></li>
+<li><input type="text" placeholder="address" id="address" size="60" /></li>
+<li><input type="text" placeholder="Email" id="email" size="50" /></li>
+<li><label id="gender">Sex: </label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label for="desc">Feedback:</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+
+</form>
+</div>
+</body>
+</html>
+
